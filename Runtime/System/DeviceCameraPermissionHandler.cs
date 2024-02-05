@@ -35,7 +35,6 @@ namespace com.Klazapp.Utility
                 var devices = WebCamTexture.devices;
                 return devices.Length > 0;
             }
-
             
 #if UNITY_ANDROID
             return Permission.HasUserAuthorizedPermission(Permission.Camera);
